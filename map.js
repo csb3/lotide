@@ -34,3 +34,5 @@ assertArraysEqual(results1, ["g", "c", "t", "m", "t"]);
 assertArraysEqual(map([1,2], num => num * 2), [2, 4]);
 assertArraysEqual(map(["aa", "bb"], word => word += "e"), ["aae", "bbe"]);
 assertArraysEqual(map([2,4], num => num % 2 === 0), [true, true]);
+
+module.exports = map;

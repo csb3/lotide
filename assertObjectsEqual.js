@@ -42,3 +42,5 @@ assertObjectsEqual({a: 3, b:[4, 6]}, {b: [4, 6], a: 3}); // true
 assertObjectsEqual({a: 5, d: 7}, {c: 4, a: 5}); // false
 assertObjectsEqual({a: 5}, {a: 5, b: 7}); //false
 assertObjectsEqual({a: 3, b:[4, 6]}, {b: [4, 7], a: 3}); // false
+
+module.exports = assertObjectsEqual;
